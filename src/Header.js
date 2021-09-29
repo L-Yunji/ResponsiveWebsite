@@ -12,7 +12,7 @@ const Box = styled.div`
   z-index: 10;
   @media (max-width: 768px) {
     justify-content: center;
-    height: 80px;
+    height: 4rem;
   }
 `
 
@@ -25,6 +25,7 @@ const LOGO = styled.button`
   outline: none;
   background: none;
   border: none;
+  padding: 1rem;
   font-family: 'Scheherazade New', serif;
   font-weight: 600;
 `
@@ -33,7 +34,7 @@ const Button = styled.button`
   height: 3em;
   font-size: 1rem;
   justify-content: conter;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   outline: none;
   background: none;
   border: none;

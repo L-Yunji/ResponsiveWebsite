@@ -55,19 +55,19 @@ const Title = styled.h1`
 const Box = styled.div`
   display: flex;
   margin: 0 auto;
-  margin-top: 64px;
+  margin-top: 2em;
   width: 55vw;
   height: 50vh;
   ${media.tablet`
     width: 80vw;
-    margin-top: 32px;
+    margin-top: 2em;
     height: 30vh;`}
 `
 
 const Text = styled.div`
   text-align: justify;
   width: 30vw;
-  margin-left: 50px;
+  margin-left: 3rem;
   ${media.tablet`
     width: 100%;
     margin: 0;
@@ -81,7 +81,7 @@ const Container = styled.div`
   width: 25vw;
   height: 50vh;
   border-radius: 4px;
-  background-color: lightcoral;
+  background-color: #C3E2DD;
   ${media.tablet`
     display: none;`}
 `
