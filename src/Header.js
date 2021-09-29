@@ -7,8 +7,8 @@ const Box = styled.div`
   align-items: center;
   position: fixed;
   width: 100%;
-  height: 80px;
-  box-shadow: 1px 1px 1px lightgray;
+  height: 10vh;
+  background-color: white;
   
   @media (max-width: 768px) {
     justify-content: center;
@@ -32,13 +32,13 @@ const Button = styled.button`
   height: 3em;
   font-size: 1rem;
   justify-content: conter;
-  padding: 0.5rem;
+  padding: 8px 16px;
   outline: none;
   background: none;
   border: none;
   border-radius: 4px;
-  margin-left: 30px;
   display: block;
+  box-sizing: inherit;
   font-family: 'Times New Roman', Times, serif;
   &:hover {
     font-weight: 600;
@@ -55,7 +55,7 @@ const Header = () => {
       <LOGO>EFUB</LOGO>
       <Menu>
         <Button>About</Button>
-        <Button>Menu</Button>
+        <Button>Code</Button>
         <Button>Contact</Button>
       </Menu>
     </Box>
