@@ -9,7 +9,7 @@ const Box = styled.div`
   width: 100%;
   height: 10vh;
   background-color: white;
-  
+  z-index: 10;
   @media (max-width: 768px) {
     justify-content: center;
     height: 80px;
@@ -56,7 +56,7 @@ const Header = () => {
       <LOGO>EFUB</LOGO>
       <Menu>
         <Button>About</Button>
-        <Button>Code</Button>
+        <Button>Contents</Button>
         <Button>Contact</Button>
       </Menu>
     </Box>
